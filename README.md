@@ -16,6 +16,8 @@ Abra `index.html` no navegador para visualizar. Não há build nem dependências
 | `carreiras.html` | Carreiras | áreas de atuação, vagas (**alimentadas pelo painel**, com estado vazio) e banco de talentos com currículo |
 | `contato.html` | Contato | canais, horário, espaço para mapa e formulário |
 
+Fotos: só as enviadas pelo cliente (fotos da obra Heineken e mini portfólio). Serviço sem foto mostra "Fotos em breve".
+
 Topo e rodapé são iguais em todas as páginas; o link ativo do menu usa `aria-current="page"`.
 
 ## Estrutura de arquivos
@@ -55,5 +57,6 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 - [ ] Telefone e cidade oficiais (portfólio: (14) 98198-0011 / Marília, SP; site antigo: (27) 99792-2689 / Três Lagoas, MS)
 - [ ] Obra Heineken: confirmar cidade/UF (pasta diz Passos-MS; Passos fica em MG), período e área
 - [ ] Fotos da obra Suzano sem uniformes com a marca antiga
+- [ ] Fotos de Esquadrias (sem foto no momento, aparece "Fotos em breve")
 - [ ] Fotos novas de obras: `assets/img/obras/<obra>/`, no máximo 1600px, JPG ~80%
 - [ ] SEO: favicon PNG/ICO, Open Graph, `sitemap.xml`, Analytics
