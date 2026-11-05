@@ -57,6 +57,6 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 - [ ] Telefone e cidade oficiais (portfólio: (14) 98198-0011 / Marília, SP; site antigo: (27) 99792-2689 / Três Lagoas, MS)
 - [ ] Obra Heineken: confirmar cidade/UF (pasta diz Passos-MS; Passos fica em MG), período e área
 - [ ] Fotos da obra Suzano sem uniformes com a marca antiga
-- [ ] Fotos de Esquadrias (sem foto no momento, aparece "Fotos em breve")
+- [x] Foto de Esquadrias: imagem ilustrativa gerada por IA (`assets/img/servicos/esquadrias.jpg`); trocar por foto real quando houver
 - [ ] Fotos novas de obras: `assets/img/obras/<obra>/`, no máximo 1600px, JPG ~80%
 - [ ] SEO: favicon PNG/ICO, Open Graph, `sitemap.xml`, Analytics
