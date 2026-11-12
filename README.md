@@ -11,6 +11,7 @@ Abra `index.html` no navegador para visualizar. Não há build nem dependências
 | `index.html` | Início | hero, empresa, serviços, obras recentes, missão/visão/valores, parceiros, carreiras, CTA |
 | `servicos.html` | Serviços | lista dos 8 serviços + como trabalhamos |
 | `servico-*.html` | Detalhe do serviço | 8 páginas, mesmo modelo (visão geral, o que executamos, fotos, processo, outros serviços) |
+| `inspecao-qualidade.html` | Inspeção de qualidade | serviço para gerenciadoras: problema, solução, fluxo FVS/RNC, telas do app, exemplo, entregas, contrato, diferenciais e obra-piloto. Chamada na home e em Serviços; link no menu ("Qualidade") e no rodapé |
 | `obras.html` | Obras | lista com filtro por setor (visual). **Alimentada pelo painel** |
 | `obra-arauco.html` | Detalhe da obra | Fábrica de Celulose Arauco (Inocência, MS): ficha técnica e as 4 frentes do portfólio, com âncoras (`#captacao`, `#sala-eletrica`, `#tanque`, `#edificio-quimico`) |
 | `obra-heineken.html` | Detalhe da obra | modelo para todas as obras: ficha técnica, escopo e galeria |
@@ -29,6 +30,7 @@ assets/logo/                logos oficiais (SVG + PNG)
 assets/img/hero-planta.jpg  foto do topo da home
 assets/img/servicos/        fotos dos serviços
 assets/img/obras/<obra>/    fotos por obra (heineken-passos, arauco-inocencia)
+assets/img/qualidade/       fotos e telas do app da inspeção de qualidade
 assets/img/parceiros/       logos de clientes e parceiros
 ```
 
@@ -64,6 +66,9 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 - [ ] Foto de Juntas tem baixa resolução (360×640): a página usa cabeçalho sem foto; enviar foto maior se houver
 - [ ] Fotos novas de obras: `assets/img/obras/<obra>/`, no máximo 1600px, JPG ~80%
 - [ ] SEO: favicon PNG/ICO, Open Graph, `sitemap.xml`, Analytics
+
+- [ ] Inspeção de qualidade: confirmar o número de retrabalho (≈ 5%) e as fontes citadas, a menção à ISO 9001 ("baseados na", não certificação) e a base em Inocência (MS)
+- [ ] Inspeção de qualidade: o material de origem usava a marca antiga (SAMARC / SMRC QA); no site o serviço aparece só como Saccani e o logo antigo foi coberto na tela de relatórios do app
 
 ## Revisão de 11/11/2026 (aplicada)
 
