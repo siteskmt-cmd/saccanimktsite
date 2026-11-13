@@ -79,3 +79,15 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 5. Obras recentes da home: as 4 frentes da Arauco do portfólio (captação, sala elétrica da ETA, tanque ETAC, edifício de produtos químicos).
 6. Páginas de serviço com fotos recentes da Arauco (Concreto, Vedação, Infraestrutura) e as fotos novas da revisão.
 7. Card da Suzano com a foto do filtro de areia (no lugar de "Fotos em breve").
+
+## PDF de aprovação
+
+`aprovacao/Saccani_Layout_Site_Aprovacao.pdf`: capa, sumário, o que mudou, identidade visual, as 16 telas em tamanho real (clicáveis), versão celular e página de aprovação.
+
+Para gerar de novo depois de mudar o site (precisa de Playwright com Chromium e internet para as fontes):
+
+```
+node aprovacao/gerar-pdf/capturar.js
+```
+
+Textos, lista de telas, "o que mudou" e pendências ficam em `aprovacao/gerar-pdf/modelo.js`.
