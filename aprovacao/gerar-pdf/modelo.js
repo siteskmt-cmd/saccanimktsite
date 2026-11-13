@@ -3,7 +3,7 @@ const path = require('path');
 const RAIZ = path.resolve(__dirname, '..', '..');
 const asset = rel => 'file://' + path.join(RAIZ, rel);
 
-const VERSAO = 'Layout v3';
+const VERSAO = 'Layout v4';
 const DATA = 'Novembro de 2026';
 const CAB = 96; // altura da faixa de título de cada tela (px)
 
@@ -47,6 +47,9 @@ const MUDANCAS = [
   ['Fotos recentes nos serviços', 'Concreto, Vedação e Infraestrutura com fotos da obra da Arauco.', 'servico-concreto.html'],
   ['Obra Suzano com foto', 'O card do filtro de areia da ETA ganhou foto no lugar de "Fotos em breve".', 'obras.html'],
   ['Nova: Inspeção de qualidade', 'Página do serviço para gerenciadoras, chamada na página inicial e em Serviços e link "Qualidade" no menu.', 'inspecao-qualidade.html'],
+  ['Título da página inicial', '"Da fundação ao acabamento, em plantas na fase de projeto ou operação."', 'index.html'],
+  ['Foto de Entregas', 'Inspeção de qualidade: foto com o relatório analítico, a ficha e o dashboard sobre a mesa.', 'inspecao-qualidade.html'],
+  ['Nome SMRC Engenharia', 'Todo o texto do site usa SMRC Engenharia. Logos e imagens continuam como estão.', 'index.html'],
 ];
 
 const PENDENCIAS = [
@@ -160,7 +163,7 @@ em { font-style: normal; font: 500 10px/1 'IBM Plex Mono', monospace; letter-spa
 .mudou { display: grid; grid-template-columns: 360px 1fr; gap: 64px; }
 .mudou__lado p { color: var(--cinza); margin-top: 16px; }
 .mud { list-style: none; margin: 0; padding: 0; border-top: 3px solid var(--noite); }
-.mud li { display: grid; grid-template-columns: 44px 1fr auto; gap: 18px; align-items: center; padding: 15px 0; border-bottom: 1px solid var(--linha); }
+.mud li { display: grid; grid-template-columns: 44px 1fr auto; gap: 18px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--linha); }
 .num { display: grid; place-items: center; width: 34px; height: 38px; background: var(--petroleo); color: #fff; clip-path: var(--hex); font: 700 14px Archivo, sans-serif; }
 .mud h3 { font-size: 18px; color: var(--noite); }
 .mud p { font-size: 15px; color: var(--cinza); margin-top: 3px; }
@@ -232,7 +235,7 @@ em { font-style: normal; font: 500 10px/1 'IBM Plex Mono', monospace; letter-spa
   <div style="align-self:end">
     <p class="olho">Layout para aprovação</p>
     <h1>Novo site <span>SMRC Engenharia</span></h1>
-    <p class="capa__lead">Proposta de layout com todas as páginas do site, já com a revisão de 11/11/2026 e a nova página de Inspeção de qualidade. As telas deste PDF são clicáveis, como no site.</p>
+    <p class="capa__lead">Proposta de layout com todas as páginas do site, já com a revisão de 11/11/2026, a nova página de Inspeção de qualidade e o nome SMRC Engenharia. As telas deste PDF são clicáveis, como no site.</p>
   </div>
   <dl class="capa__fatos">
     <div><dt>Páginas</dt><dd>${telas.length} telas</dd></div>
@@ -263,7 +266,7 @@ em { font-style: normal; font: 500 10px/1 'IBM Plex Mono', monospace; letter-spa
   <div class="mudou__lado">
     <p class="olho">Nesta versão</p>
     <h2 class="grande">O que mudou</h2>
-    <p>Itens da revisão do site de 11/11/2026 e a nova página de Inspeção de qualidade. Clique em cada item para ver a tela.</p>
+    <p>Itens da revisão do site de 11/11/2026, a nova página de Inspeção de qualidade e os ajustes seguintes. Clique em cada item para ver a tela.</p>
   </div>
   <ol class="mud">${mudancas}
   </ol>
