@@ -69,7 +69,7 @@ Os dois formulários têm o atributo `data-demo` e um script no fim da página q
 
 | Formulário | Página | Campos | Envia para |
 |---|---|---|---|
-| Orçamento / contato | `contato.html` | nome*, empresa/planta, telefone, e-mail*, serviço (lista), mensagem | e-mail comercial **(a confirmar)** |
+| Orçamento / contato | `contato.html` | nome*, empresa/planta, telefone, e-mail*, serviço (lista), mensagem | e-mail comercial **(a confirmar; provavelmente samarc.contato@gmail.com)** |
 | Currículo | `carreiras.html` | nome*, telefone/WhatsApp*, e-mail, cidade/UF, área (lista), função, arquivo (.pdf, .doc, .docx), aceite LGPD* | e-mail de RH **(a confirmar)** |
 
 - Proteção contra spam: honeypot e/ou reCAPTCHA v3 / Cloudflare Turnstile.
@@ -96,7 +96,6 @@ Em `contato.html`, inserir o mapa do Google na área `.mapa` (endereço a confir
 ### 5. Dados em vermelho
 
 Substituir cada `.pendente` pelo dado confirmado e retirar a classe. Hoje estão em vermelho:
-- o e-mail do rodapé e da página de contato;
 - o e-mail de RH;
 - Instagram e LinkedIn (rodapé de todas as páginas e Carreiras);
 - os campos "A confirmar" das obras.

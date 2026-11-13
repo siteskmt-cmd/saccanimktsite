@@ -4,11 +4,10 @@ O layout foi aprovado. Para o programador publicar o site, precisamos confirmar 
 
 ## 1. Domínio, hospedagem e e-mails
 
-- [ ] **Domínio do site.** Qual endereço o site vai usar (ex.: smrcengenharia.com.br)? Já está registrado? Em nome de quem?
-- [ ] **Hospedagem.** Já existe? Quem tem o acesso? Ou o programador contrata?
+- [x] **Domínio e hospedagem:** ok (confirmado em 13/11/2026)
 - [ ] **Site antigo.** Existe um site no ar hoje (Samarc ou outro domínio) que deva redirecionar para o novo?
-- [ ] **E-mail que aparece no site.** Exemplo: contato@...
-- [ ] **E-mail que recebe os pedidos de orçamento** (formulário da página Contato). Pode ser mais de um.
+- [x] **E-mail de contato que aparece no site:** samarc.contato@gmail.com (já aplicado no site)
+- [ ] **E-mail que recebe os pedidos de orçamento** (formulário da página Contato). É o mesmo samarc.contato@gmail.com? Pode ser mais de um.
 - [ ] **E-mail que aparece em Carreiras e recebe os currículos.** Exemplo: rh@...
 - [ ] **Resposta automática.** Quem preenche o formulário recebe uma confirmação por e-mail? (sim / não)
 
