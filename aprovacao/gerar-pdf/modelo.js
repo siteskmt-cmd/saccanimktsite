@@ -23,7 +23,7 @@ const TELAS = [
   { arquivo: 'obras.html', nome: 'Obras', titulo: 'Obras', desc: 'Lista de obras com filtro por setor. Alimentada pelo painel do site.' },
   { arquivo: 'obra-arauco.html', nome: 'Obra · Arauco', titulo: 'Obra · Fábrica de Celulose Arauco', desc: 'Detalhe da obra: ficha técnica e as 4 frentes do portfólio, com fotos.', novo: true },
   { arquivo: 'obra-heineken.html', nome: 'Obra · Heineken', titulo: 'Obra · Cervejaria Heineken', desc: 'Detalhe da obra: ficha técnica, escopo e galeria. Mesmo modelo para as próximas obras.' },
-  { arquivo: 'carreiras.html', nome: 'Carreiras', titulo: 'Carreiras', desc: 'Por que trabalhar na Saccani, áreas de atuação, vagas abertas (alimentadas pelo painel) e banco de talentos com currículo.' },
+  { arquivo: 'carreiras.html', nome: 'Carreiras', titulo: 'Carreiras', desc: 'Por que trabalhar na SMRC, áreas de atuação, vagas abertas (alimentadas pelo painel) e banco de talentos com currículo.' },
   { arquivo: 'contato.html', nome: 'Contato', titulo: 'Contato', desc: 'Canais, horário, espaço para o mapa e formulário.' },
 ].map((t, i) => ({ ...t, n: String(i + 1).padStart(2, '0') }));
 
@@ -55,7 +55,8 @@ const PENDENCIAS = [
   ['Obras Heineken e Arauco', 'Heineken: cidade e UF, período e área. Arauco: período da obra.'],
   ['Textos novos', 'Reparos Especializados, Juntas e as 4 frentes da obra Arauco.'],
   ['Inspeção de qualidade', 'Número de retrabalho (≈ 5%) e fontes, menção à ISO 9001 e base em Inocência (MS).'],
-  ['Fotos', 'Pintura mostra uniforme com a marca antiga; foto de Juntas em baixa resolução.'],
+  ['Logo SMRC', 'O texto do site já usa SMRC Engenharia; os logos ainda são os da Saccani. Enviar o logo SMRC.'],
+  ['Fotos', 'Pintura mostra uniforme com a marca SAMARC; foto de Juntas em baixa resolução.'],
 ];
 
 function linkDestino(href, atual) {
@@ -104,7 +105,7 @@ function montarHtml(telas, celular) {
 
   return `<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">
-<title>Saccani Engenharia · Layout do site para aprovação</title>
+<title>SMRC Engenharia · Layout do site para aprovação</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112..125,600..900&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=block">
 <style>
 @page { size: 1440px 900px; margin: 0; }
@@ -228,10 +229,10 @@ em { font-style: normal; font: 500 10px/1 'IBM Plex Mono', monospace; letter-spa
 
 <section class="pg escuro capa" id="capa">
   <img class="capa__bg" src="${asset('assets/img/hero-planta.jpg')}" alt="">
-  <img class="capa__logo" src="${asset('assets/logo/Saccani_logo_negativa_branca.svg')}" alt="Saccani Engenharia">
+  <img class="capa__logo" src="${asset('assets/logo/Saccani_logo_negativa_branca.svg')}" alt="SMRC Engenharia">
   <div style="align-self:end">
     <p class="olho">Layout para aprovação</p>
-    <h1>Novo site <span>Saccani Engenharia</span></h1>
+    <h1>Novo site <span>SMRC Engenharia</span></h1>
     <p class="capa__lead">Proposta de layout com todas as páginas do site, já com a revisão de 11/11/2026 e a nova página de Inspeção de qualidade. As telas deste PDF são clicáveis, como no site.</p>
   </div>
   <dl class="capa__fatos">

@@ -1,6 +1,6 @@
-# Saccani Engenharia — layout do site
+# SMRC Engenharia — layout do site
 
-Layout estático (HTML + CSS) do novo site da **Saccani Engenharia**, para o desenvolvedor programar e publicar no domínio.
+Layout estático (HTML + CSS) do novo site da **SMRC Engenharia**, para o desenvolvedor programar e publicar no domínio.
 
 Abra `index.html` no navegador para visualizar. Não há build nem dependências.
 
@@ -56,19 +56,20 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 ## Pendências com o cliente (em vermelho no layout)
 
 - [ ] E-mail de contato, e-mail de RH e domínio novo
-- [ ] Links de Instagram e LinkedIn da Saccani
+- [ ] Links de Instagram e LinkedIn da SMRC
 - [ ] Telefone e cidade oficiais (portfólio: (14) 98198-0011 / Marília, SP; site antigo: (27) 99792-2689 / Três Lagoas, MS)
 - [ ] Obra Heineken: confirmar cidade/UF (pasta diz Passos-MS; Passos fica em MG), período e área
 - [x] Foto da obra Suzano (enviada na revisão de 11/11/2026)
 - [ ] Confirmar os textos novos de **Reparos Especializados** e **Juntas** (visão geral e lista "O que executamos") e das 4 frentes da obra Arauco
 - [ ] Obra Arauco: confirmar período
-- [ ] Foto de Pintura (enviada na revisão) mostra o uniforme com a marca antiga
+- [ ] Foto de Pintura (enviada na revisão) mostra o uniforme com a marca SAMARC
 - [ ] Foto de Juntas tem baixa resolução (360×640): a página usa cabeçalho sem foto; enviar foto maior se houver
 - [ ] Fotos novas de obras: `assets/img/obras/<obra>/`, no máximo 1600px, JPG ~80%
 - [ ] SEO: favicon PNG/ICO, Open Graph, `sitemap.xml`, Analytics
 
 - [ ] Inspeção de qualidade: confirmar o número de retrabalho (≈ 5%) e as fontes citadas, a menção à ISO 9001 ("baseados na", não certificação) e a base em Inocência (MS)
-- [ ] Inspeção de qualidade: o material de origem usava a marca antiga (SAMARC / SMRC QA); no site o serviço aparece só como Saccani e o logo antigo foi coberto na tela de relatórios do app
+- [ ] **Nome da empresa:** todo o texto do site usa "SMRC Engenharia" (SMRC sempre em caixa alta). Os logos (topo, rodapé, ícone da aba, PDF) e as fotos dos relatórios em `assets/img/qualidade/book-indicadores.jpg` ainda mostram o logo SACCANI: trocar quando houver o logo SMRC
+- [ ] Inspeção de qualidade: o logo SMRC QA foi coberto na tela de relatórios do app (`assets/img/qualidade/app-indicadores.webp`)
 
 ## Revisão de 11/11/2026 (aplicada)
 
@@ -82,7 +83,7 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 
 ## PDF de aprovação
 
-`aprovacao/Saccani_Layout_Site_Aprovacao.pdf`: capa, sumário, o que mudou, identidade visual, as 16 telas em tamanho real (clicáveis), versão celular e página de aprovação.
+`aprovacao/SMRC_Layout_Site_Aprovacao.pdf`: capa, sumário, o que mudou, identidade visual, as 16 telas em tamanho real (clicáveis), versão celular e página de aprovação.
 
 Para gerar de novo depois de mudar o site (precisa de Playwright com Chromium e internet para as fontes):
 

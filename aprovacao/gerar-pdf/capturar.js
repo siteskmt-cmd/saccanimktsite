@@ -8,7 +8,7 @@ const { montarHtml, TELAS, CELULAR } = require('./modelo');
 
 const RAIZ = path.resolve(__dirname, '..', '..');
 const TMP = path.join(__dirname, '.tmp');
-const SAIDA = path.join(RAIZ, 'aprovacao', 'Saccani_Layout_Site_Aprovacao.pdf');
+const SAIDA = path.join(RAIZ, 'aprovacao', 'SMRC_Layout_Site_Aprovacao.pdf');
 const LARGURA = 1440;
 
 async function prepararPagina(p, arquivo) {
