@@ -62,14 +62,12 @@ Fontes (Google Fonts): **Archivo** expandida (títulos), **Figtree** (texto), **
 - [x] Foto da obra Suzano (enviada na revisão de 11/11/2026)
 - [ ] Confirmar os textos novos de **Reparos Especializados** e **Juntas** (visão geral e lista "O que executamos") e das 4 frentes da obra Arauco
 - [ ] Obra Arauco: confirmar período
-- [ ] Foto de Pintura (enviada na revisão) mostra o uniforme com a marca SAMARC
 - [ ] Foto de Juntas tem baixa resolução (360×640): a página usa cabeçalho sem foto; enviar foto maior se houver
 - [ ] Fotos novas de obras: `assets/img/obras/<obra>/`, no máximo 1600px, JPG ~80%
 - [ ] SEO: favicon PNG/ICO, Open Graph, `sitemap.xml`, Analytics
 
 - [ ] Inspeção de qualidade: confirmar o número de retrabalho (≈ 5%) e as fontes citadas, a menção à ISO 9001 ("baseados na", não certificação) e a base em Inocência (MS)
-- [ ] **Nome da empresa:** todo o texto do site usa "SMRC Engenharia" (SMRC sempre em caixa alta). Os logos (topo, rodapé, ícone da aba, PDF) e as fotos dos relatórios em `assets/img/qualidade/book-indicadores.jpg` ainda mostram o logo SACCANI: trocar quando houver o logo SMRC
-- [ ] Inspeção de qualidade: o logo SMRC QA foi coberto na tela de relatórios do app (`assets/img/qualidade/app-indicadores.webp`)
+- [x] **Nome da empresa:** todo bloco de texto do site usa "SMRC Engenharia" (SMRC sempre em caixa alta). Imagens e logos podem manter Saccani e SAMARC
 
 ## Revisão de 11/11/2026 (aplicada)
 

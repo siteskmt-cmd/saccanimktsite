@@ -55,8 +55,7 @@ const PENDENCIAS = [
   ['Obras Heineken e Arauco', 'Heineken: cidade e UF, período e área. Arauco: período da obra.'],
   ['Textos novos', 'Reparos Especializados, Juntas e as 4 frentes da obra Arauco.'],
   ['Inspeção de qualidade', 'Número de retrabalho (≈ 5%) e fontes, menção à ISO 9001 e base em Inocência (MS).'],
-  ['Logo SMRC', 'O texto do site já usa SMRC Engenharia; os logos ainda são os da Saccani. Enviar o logo SMRC.'],
-  ['Fotos', 'Pintura mostra uniforme com a marca SAMARC; foto de Juntas em baixa resolução.'],
+  ['Foto de Juntas', 'Baixa resolução (360×640): a página usa cabeçalho sem foto. Enviar uma foto maior, se houver.'],
 ];
 
 function linkDestino(href, atual) {
