@@ -1,0 +1,9 @@
+{
+  "name": "SMRC · Montar layout",
+  "id": "smrc-montar-layout-site",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["none"] }
+}
